@@ -1,0 +1,89 @@
+@media (max-width: 1300px){
+    #weather{
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 1150px){
+    #weather, #Clock{
+        visibility: hidden;
+    }
+    #firstItem, #bar, #refresh, #seconds, .grid-itemTimer{
+        display: none;
+    }
+    #gridConteiner{
+        grid-template-columns: 20% 80%;
+    }
+    #navegation{
+        grid-column: 2;
+        margin: 0;
+    }
+    #btnLogout{
+        grid-column: 1;
+        order: -1;
+    }
+
+}
+
+@media (max-width: 1150px){
+    #txtIntroduc{
+        visibility: hidden;
+    }
+
+}
+
+@media (max-width: 891px){
+    #conteinerRight, #conteinerRightHome{
+        display: none;
+    }
+    #conteinerLeft{
+        width: 100%;
+        height: 100vh;
+    }
+    #LogoMidiaQuery{
+        margin: 0 0 60% 30%;
+        width: 70%;
+        height: 5%;
+        display: block;
+    }
+   
+    #btnLogout{
+        
+        font-size: 12px;
+    }
+    #navegation{
+        font-size: 12px;
+    }
+    #inputPasswordSize, #inputUserSize{
+        margin: 0 0 0 -20%;;
+    }
+    #inputUser{
+        margin-bottom: 15%;
+    }
+    #Columns button{
+        height: 80%;
+    }
+}  
+    
+@media (max-width: 680px){
+    #bigLogoFlex{
+        width: 90vw;
+        height: 70vh;
+    }
+    #gridConteiner{
+        height: 10vh;
+    }
+    #mainColumn{
+        height: 100%;
+        width: 60%;
+    }
+}
+
+@media (max-width: 540px){
+    #inputUser input, #inputPassword input{
+        height: 3.0;
+    }
+    .BoxLogin{
+        height: 40%;
+    }
+}
