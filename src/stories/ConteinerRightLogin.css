@@ -1,0 +1,38 @@
+#conteinerRight{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 100vh;
+    background-image: url("./assets/image\ 2.png");
+}
+
+#section2 {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 0 35%;
+    width: 19.125em;
+    height: 4.313em;  
+}
+
+#Erro{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 3em;
+    display: none;
+}
+
+#Erro p{
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-size: clamp(0.5rem, 2.5vw, 1rem);
+    text-align: center;
+    color: #E9B425;
+}
+
+#ErrorPosition{
+    display: flex;
+    align-items: flex-end;
+    height: 40%;
+}

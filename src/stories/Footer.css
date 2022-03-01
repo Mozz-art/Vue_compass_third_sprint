@@ -1,0 +1,88 @@
+#gridConteiner{
+    display: grid;
+    align-self: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    grid-template-columns: 30%  5% 5% 15% 6% 6% 6%;
+    gap: 1%;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: clamp(0.5rem, 3.0vw, 0.8rem);
+}
+
+#JanelaUm{
+    width: 100%;
+    height: 100%;
+}
+
+#Barra{
+    align-self: center;
+    width: 1%;
+    height: 70%;
+    background-color: white;
+}
+
+#refresh{
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    font-size: 14px;
+    margin: 0 0 0 15%;
+}
+
+#btnLogout{
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btnLogout:hover{
+    color: #C12D18;
+}
+
+#seconds{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    justify-self: start;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+.grid-itemTimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-itemTimer h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+.grid-itemTimer h2{
+    margin: 0 0 0 3%;
+    font-size: 14px;
+    color: white;
+}
+
+#Navegando{
+    margin: 0 0 0 20%;
+    background-color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 12px;
+    color: #C12D18;
+}
