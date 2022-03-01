@@ -1,0 +1,52 @@
+#conteinerRightHome{
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+}
+
+#txtIntro{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+#txtIntroduc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin: 10% 0 0 0; 
+
+    h1{
+        padding: 0 0 2% 0;
+        font-weight: 900;
+        font-size: clamp(1.5rem, 3.5vw, 4rem);
+        color: #C12D18;
+    }
+    h2{
+        padding: 0 0 2% 0;
+        font-weight: 900;
+        font-size: 38px;
+        color: #C12D18; 
+    }
+    p{
+        padding: 0 0 2% 0;
+        font-weight: 900;
+        font-size: 24px;
+        color: black;
+    }
+}
+
+#weatherClock{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 18%;
+    color: black;
+}
+

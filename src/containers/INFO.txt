@@ -1,0 +1,7 @@
+Nessa pasta irão os containers. Ex:
+  - footer
+  - header
+  - loginContainerLeft
+  - loginContainerRight
+  - Content
+  - ...
