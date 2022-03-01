@@ -1,0 +1,28 @@
+#weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 20%;
+    height: 20%;
+    margin: 3% 3% 0 0;
+    color: #222222;
+}
+
+#weatherBox{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#city{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 0 3% 5%; 
+}
+
+#temperature{
+    font-weight: bold;
+    font-size: 48px;
+    margin: 3% 0 0 0;
+    
+}
