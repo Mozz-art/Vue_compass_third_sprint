@@ -1,0 +1,62 @@
+#conteinerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(180deg, #33383D 0, #1C1D20 100%);
+    font-weight: 400;
+}
+
+#mainColumn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    height: 20%;
+    width: 100%;
+    
+    h1{
+        margin: 0 0 0.3em 0;
+        font-size: clamp(1.5rem, 3.5vw, 3.750rem);
+    }
+
+    p{
+        width: 70%;
+        font-size: clamp(0.5rem, 3.5vw, 1rem);
+    }
+}
+
+#Login{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+#LoginEdit {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+    p{
+        font-size: clamp(0.5rem, 3.5vw, 1.875rem);
+        margin: 0 0 10% 0;
+    } 
+}
+
+#LogoMidiaQuery{
+    align-self: end;
+    margin: -10% 0 20% 0;
+    width: 80%;
+    height: 5%;
+    display: none;
+}
