@@ -1,0 +1,11 @@
+Nessa pasta irão os 6 componentes básicos propostos no teste:
+  - textContent
+  - title
+  - input
+  - clock
+  - timer
+  - weather
+
+Dentro de cada pasta, respectiva, deverá haver um "index.vue" e um "index.scss" para sua estilização.
+
+Deverá haver a pasta __tests__ aqui com o teste unitário (JEST) de cada componente básico listado acima.
