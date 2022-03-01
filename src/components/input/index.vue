@@ -1,0 +1,57 @@
+<template>
+<div id="Columns">
+    <div class="BoxLogin">
+        <div id="inputUser">
+            <input type="User" placeholder="Usuário" id="User" v-model="input.User">
+            <div id="inputUserSize">
+            <img draggable="false" src="@/assets/user-Icon.png" alt="IconeUser">
+            </div>
+        </div>
+        <div id="inputPassword">
+            <input type="password" placeholder="Senha" id="Password" v-model="input.Password">
+            <div id="inputPasswordSize">
+            <img draggable="false" src="@/assets/password-Icon.png" alt="IconeSenha">
+            </div>
+        </div>
+    </div>
+    <div id="ErrorPosition">
+        <div id="Erro">
+        <p>Ops, usuário ou senha inválidos, Tente novamente!</p>
+        </div>
+    </div>
+    <div id="Continue">
+    <button @click="login()" id="btnContinue">Continuar</button>
+    </div>
+</div>
+</template>
+
+<script>
+
+export default {
+    name: "InputBox",
+    data(){
+        return{
+            input:{
+                User: "",
+                Password: "",    
+            }
+        }
+    },
+    methods: {
+        login(){
+            if(this.input.User == "admin" && this.input.Password == "admin"){
+
+            } else{
+                console.log("teu cu")
+            }
+        }
+    }  
+}
+
+</script>
+
+<style lang="scss" scoped>
+
+@import './index.scss';
+
+</style>
