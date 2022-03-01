@@ -1,0 +1,1 @@
+Nessa pasta, caso seja necessário o uso de mixins de vue, deverão ser armazenados aqui estes mixins. Cada mixing com o seu respectivo arquivo JS.
