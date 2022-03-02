@@ -15,8 +15,8 @@
         </div>
     </div>
     <div id="ErrorPosition">
-        <div id="Erro">
-        <p>Ops, usuário ou senha inválidos, Tente novamente!</p>
+        <div id="Erro" ref="Error">
+        <p>{{ text }}</p>
         </div>
     </div>
     <div id="Continue">
@@ -40,12 +40,20 @@ export default {
     methods: {
         login(){
             if(this.input.User == "admin" && this.input.Password == "admin"){
-
+                this.$store.commit("setAuthentication", true);
+                this.$router.replace({name: "Home"})
             } else{
-                console.log("teu cu")
+                console.log("error")
+
             }
         }
-    }  
+    },
+    props: {
+        text:{
+            type: String,
+            default: 'Ops, usuário ou senha inválidos, Tente novamente!'
+    },
+}
 }
 
 </script>
