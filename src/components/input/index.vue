@@ -42,6 +42,7 @@ export default {
             if(this.input.User == "admin" && this.input.Password == "admin"){
                 this.$store.commit("setAuthentication", true);
                 this.$router.replace({name: "Home"})
+
             } else{
                 document.querySelector("#Erro").style.display = "block";
                 document.querySelector("#User").style.border = "1px solid #E9B425"

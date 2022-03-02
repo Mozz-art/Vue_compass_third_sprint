@@ -1,0 +1,37 @@
+.swal-overlay {
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+.swal-title {
+    margin: 0px;
+    font-size: clamp(2rem, 3vw, 2.750rem);
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.swal-text {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-weight: 400;
+    color: white;
+}
+
+.swal-modal {
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    border: 1px solid #ff5100;
+}
+
+.swal-button {
+    display:flex;
+    width: 8em;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    background: linear-gradient(90deg, #FF2D04 0, #C13216 90%);
+    border-style: none;
+    border-radius: 2em;
+    box-shadow:  0px 5px  5px 0px black;
+    &:hover{
+        background: linear-gradient(90deg, #8d2a17 0, #64271b 100%);
+    }
+}

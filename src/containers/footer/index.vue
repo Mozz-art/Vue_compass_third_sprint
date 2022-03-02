@@ -8,7 +8,7 @@
                 <div class="grid-itemTimer"><h1 id="timer"></h1><h2>seconds</h2></div>
                 <div class="grid-item" id="seconds"><Timeout /></div>
                 <div class="grid-item" id="navegation">Continuar Navegando</div>
-                <router-link to="/" class="grid-item" id="btnLogout">Logout</router-link>
+                <router-link to='/Compass-login' class="grid-item" id="btnLogout">Logout</router-link>
             </div>
         </div>
     </footer>

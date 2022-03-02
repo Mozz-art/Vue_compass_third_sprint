@@ -12,11 +12,12 @@
 import ContainerLeftLogin from "@/containers/centralContainer/login/container-left/index.vue"
 import ContainerRightLogin from "@/containers/centralContainer/login/container-right/index.vue"
 
+
 export default {
     name: "Login",
     components: {
         ContainerLeftLogin,
-        ContainerRightLogin
+        ContainerRightLogin,
     }
 }
 

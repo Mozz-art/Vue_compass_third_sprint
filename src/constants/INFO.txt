@@ -1,1 +1,0 @@
-Nessa pasta, deverá ser armazenada valores de variáveis como, por exemplo, um objeto de dias da semana que serão usados para a lógica de criação do horário e data atual.

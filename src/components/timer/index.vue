@@ -11,6 +11,7 @@ export default {
     name: "Timeout",
 }
 timeout()
+
 </script>
 
 <style lang="scss" >
