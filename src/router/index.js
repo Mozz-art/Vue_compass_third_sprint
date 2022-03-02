@@ -32,6 +32,7 @@ const routes = [
     name: 'Login',
     component: Login,
     
+    
   },
   {
     path: '/Compass-home',
@@ -40,7 +41,7 @@ const routes = [
     beforeEnter: (to, from, next) =>{
       if (store.state.authenticated == false){
         next("/Compass-login")
-        alert("Error 401 unauthorized") //trocar pra modal
+         //trocar pra modal
         
       } else{
         next()

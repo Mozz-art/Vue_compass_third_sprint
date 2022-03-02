@@ -38,6 +38,15 @@
     font-size: 14px;
     margin: 0 0 0 15%;
 }
+#navegation{
+
+    background-color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: clamp(0.5rem, 3.0vw, 0.9rem);
+    color: #C12D18;
+    
+}
 
 .grid-itemTimer{
     display: flex;
@@ -65,14 +74,4 @@
     &:hover{
         color: #C12D18;
     }
-}
-
-
-#navegation{
-    margin: 0 0 0 20%;
-    background-color: white;
-    text-align: center;
-    font-weight: 400;
-    font-size: clamp(0.5rem, 3.0vw, 0.9rem);
-    color: #C12D18;
 }

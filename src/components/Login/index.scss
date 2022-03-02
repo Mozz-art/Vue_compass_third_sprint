@@ -26,12 +26,12 @@
     
     h1{
         margin: 0 0 0.3em 0;
-        font-size: clamp(1.5rem, 3.5vw, 3.750rem);
+        font-size: clamp(3rem, 3.5vw, 3.750rem);
     }
 
     p{
         width: 70%;
-        font-size: clamp(0.5rem, 3.5vw, 1rem);
+        font-size: clamp(0.6rem, 3.5vw, 1rem);
     }
 }
 
@@ -48,7 +48,7 @@
     width: 100%;
 
     p{
-        font-size: clamp(0.5rem, 3.5vw, 1.875rem);
+        font-size: clamp(1rem, 3.5vw, 1.875rem);
         margin: 0 0 10% 0;
     } 
 }

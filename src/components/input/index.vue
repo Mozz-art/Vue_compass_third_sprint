@@ -15,7 +15,7 @@
         </div>
     </div>
     <div id="ErrorPosition">
-        <div id="Erro" ref="Error">
+        <div id="Erro">
         <p>{{ text }}</p>
         </div>
     </div>
@@ -34,7 +34,7 @@ export default {
             input:{
                 User: "",
                 Password: "",    
-            }
+            }  
         }
     },
     methods: {
@@ -43,8 +43,9 @@ export default {
                 this.$store.commit("setAuthentication", true);
                 this.$router.replace({name: "Home"})
             } else{
-                console.log("error")
-
+                document.querySelector("#Erro").style.display = "block";
+                document.querySelector("#User").style.border = "1px solid #E9B425"
+                document.querySelector("#Password").style.border = "1px solid #E9B425"
             }
         }
     },

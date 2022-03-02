@@ -19,5 +19,6 @@ export default {
 
 @import './App.scss';
 @import './assets/reset.scss';
+@import './assets/MediaQuery.scss';
 
 </style>

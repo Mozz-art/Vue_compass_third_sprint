@@ -1,6 +1,6 @@
 @media (max-width: 1300px){
     #weather{
-        margin-left: 15%;
+        margin-left: 20%;
     }
 }
 
@@ -11,6 +11,7 @@
     #firstItem, #bar, #refresh, #seconds, .grid-itemTimer{
         display: none;
     }
+   
     #gridConteiner{
         grid-template-columns: 20% 80%;
     }
@@ -22,12 +23,8 @@
         grid-column: 1;
         order: -1;
     }
-
-}
-
-@media (max-width: 1150px){
     #txtIntroduc{
-        visibility: hidden;
+        display: none;
     }
 
 }
@@ -41,14 +38,12 @@
         height: 100vh;
     }
     #LogoMidiaQuery{
-        margin: 0 0 60% 30%;
-        width: 70%;
-        height: 5%;
+        width: 80%;
+        height: 6.5%;
         display: block;
     }
    
     #btnLogout{
-        
         font-size: 12px;
     }
     #navegation{
@@ -75,13 +70,16 @@
     }
     #mainColumn{
         height: 100%;
-        width: 60%;
+        width: 70%;
+    }
+    .section1 p{
+        width: 80%;
     }
 }
 
 @media (max-width: 540px){
     #inputUser input, #inputPassword input{
-        height: 3.0;
+        height: 3.0em;
     }
     .BoxLogin{
         height: 40%;

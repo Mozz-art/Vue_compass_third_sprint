@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid-item" id="seconds"></div>
+    <div></div>
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
 timeout()
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 
 @import "./index.scss";
 
