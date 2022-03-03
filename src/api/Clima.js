@@ -1,6 +1,7 @@
 import Regions from '@/constants/regions.js'
 export default function weatherAPI(){
 
+  if (navigator.geolocation){
   navigator.geolocation.getCurrentPosition(function(position){
 
     const lat = position.coords.latitude
@@ -20,7 +21,7 @@ export default function weatherAPI(){
       let Icons =  document.querySelector("#icon")
       Icons.src = icons
     })
-
+  
   })
-
+}
 }

@@ -1,1 +1,0 @@
-Nessa pasta, em index.js, irá todo o roteamento do site.

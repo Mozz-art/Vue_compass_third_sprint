@@ -1,2 +1,0 @@
-Nessa pasta, é onde será armazenado os componentes para a composição do storybook.
-Cada componente básico (não inclui containers ou telas) deverá ter o seu storybook.
