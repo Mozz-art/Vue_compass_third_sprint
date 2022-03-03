@@ -8,7 +8,7 @@
                 <div class="grid-itemTimer"><h1 id="timer"></h1><h2>seconds</h2></div>
                 <div class="grid-item" id="seconds"><Timeout /></div>
                 <div class="grid-item" id="navegation">Continuar Navegando</div>
-                <router-link to='/Compass-login' class="grid-item" id="btnLogout">Logout</router-link>
+                <div @click="logout()" class="grid-item" id="btnLogout">Logout</div>
             </div>
         </div>
     </footer>
@@ -17,11 +17,17 @@
 <script>
 
 import Timeout from "@/components/timer/index.vue"
+import router from "@/router/index.js"
 
 export default {
     name: "Footer",
     components: {
         Timeout
+    },
+    methods: {
+        logout(){
+        router.push({ name: "Login"})
+    }
     }
   
 }

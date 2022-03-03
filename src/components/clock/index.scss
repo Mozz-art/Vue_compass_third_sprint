@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    color: #222222;
+    
 
     input{
         display: flex;
@@ -14,13 +14,15 @@
         border: none;
         font-weight: bold;
         background-color: transparent;
-        padding: 4% 0 0 0;
+        line-height: 0.8em;
+        color: #222222;
+        padding: 3% 0 0 0;
     }
     p{
         display: flex;
         align-items: center;
         font-weight: 400;
         font-size: 14px;
-        padding: 2% 0 0 8%;
+        padding: 2% 0 0 6%;
     }
 }

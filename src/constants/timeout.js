@@ -6,9 +6,7 @@ export default function Timeout() {
     let timerInterval = setInterval(function() {
       if(timer == "0") {
         router.push({ name: "Login"})
-        if (router == ({ name: "Home"})){
-          timer = 601;
-        }
+        timer = 601;
         clearInterval(timerInterval)
   
       } else {

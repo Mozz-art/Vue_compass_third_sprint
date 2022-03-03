@@ -1,9 +1,7 @@
 <template>
-<body onselectstart="return false">
-    <div id="app">
-    <router-view/>
+  <div id="app">
+  <router-view/>
   </div>
-</body>
 </template>
 
 <script>
@@ -20,6 +18,6 @@ export default {
 @import './App.scss';
 @import './assets/reset.scss';
 @import './assets/MediaQuery.scss';
-@import './assets/modal.scss'
+@import './assets/modal.scss';
 
 </style>

@@ -1,3 +1,4 @@
+import Regions from '@/constants/regions.js'
 export default function weatherAPI(){
 
   navigator.geolocation.getCurrentPosition(function(position){
@@ -9,7 +10,7 @@ export default function weatherAPI(){
     .then((respondes)=> respondes.json()).then(result =>{
 
       const city = result.location.name
-      const region = result.location.region
+      const region = Regions(result.location.region)
       const temp = result.current.temp_c
       
       let icons = result.current.condition.icon

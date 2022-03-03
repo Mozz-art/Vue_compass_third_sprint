@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Login from '@/views/login/index.vue'
 import Vuex from 'vuex'
 import App from '@/App.vue'
 import swal from 'sweetalert';
+
 
 Vue.use(VueRouter)
 Vue.use(Vuex);
@@ -30,7 +30,8 @@ const routes = [
   {
     path: '/Compass-login',
     name: 'Login',
-    component: Login,
+    component: () => import(/* webpackChunkName: "Home" */"@/views/login/index.vue"),
+    
   },
   {
     path: '/Compass-home',
@@ -43,13 +44,14 @@ const routes = [
         
       } else{
         next()
+        
       }
   }
 },
     {
       path: '*',
       name: 'Login',
-      component: Login,
+      component: () => import(/* webpackChunkName: "Home" */"@/views/login/index.vue"),
       beforeEnter: (to, from, next) =>{
         swal("Erro 404:" ,"Page Not Found")
         next("/Compass-login")

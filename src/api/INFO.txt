@@ -1,2 +1,0 @@
-Nessa pasta deverá ser armazenada as configurações de uma API utilizada.
-Se houver +1 API, será preciso criar uma pasta para cara API dentro desta pasta api.
