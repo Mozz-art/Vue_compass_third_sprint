@@ -54,7 +54,7 @@ export default {
         },
         redirect(){
 
-            setInterval(this.Loged(),5000)
+            setTimeout(this.Loged(),5000)
         },
         Loged(){
             this.$store.state.users.forEach((event)=>{

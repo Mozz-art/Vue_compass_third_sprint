@@ -16,7 +16,7 @@ export default function weatherAPI(){
       let icons = result.current.condition.icon
       
       document.querySelector("#city").innerHTML = city + " - " + region;
-      document.querySelector("#temperature").innerHTML = temp + "º";
+      document.querySelector("#temperature").innerHTML = temp.toFixed(0) + "º";
       let Icons =  document.querySelector("#icon")
       Icons.src = icons
     })

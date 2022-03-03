@@ -41,7 +41,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+@import '@/assets/MediaQuery.scss';
 @import './index.scss';
 
 </style>

@@ -3,7 +3,8 @@ import VueRouter from 'vue-router'
 import Vuex from 'vuex'
 import App from '@/App.vue'
 import swal from 'sweetalert';
-
+import VueSanitize from "vue-sanitize";
+Vue.use(VueSanitize);
 
 Vue.use(VueRouter)
 Vue.use(Vuex);

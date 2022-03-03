@@ -17,6 +17,7 @@
     "vue": "^2.6.11",
     "vue-modally-v3": "^0.0.7",
     "vue-router": "^3.2.0",
+    "vue-sanitize": "^0.2.1",
     "vuex": "^3.4.0"
   },
   "devDependencies": {

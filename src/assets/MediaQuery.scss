@@ -8,7 +8,7 @@
     #weather, #Clock{
         visibility: hidden;
     }
-    #firstItem, #bar, #refresh, #seconds, .grid-itemTimer{
+    #firstItem, #bar, #refresh, #seconds, .grid-itemTimer,  #txtIntroduc{
         display: none;
     }
    
@@ -23,13 +23,10 @@
         grid-column: 1;
         order: -1;
     }
-    #txtIntroduc{
-        display: none;
-    }
 
 }
 
-@media (max-width: 891px){
+@media (max-width: 940px){
     #conteinerRight, #conteinerRightHome{
         display: none;
     }
