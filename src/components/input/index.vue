@@ -41,8 +41,6 @@ export default {
         login(){
             if(this.input.User == "admin" && this.input.Password == "admin"){
                 this.$store.commit("setAuthentication", true);
-                localStorage.setItem("User", this.input.User)
-                localStorage.setItem("Password", this.input.User)
                 this.$router.replace({name: "Home"})
                 
 
@@ -52,20 +50,6 @@ export default {
                 document.querySelector("#Password").style.border = "1px solid #E9B425"
             }
         },
-        redirect(){
-
-            setTimeout(this.Loged(),5000)
-        },
-        Loged(){
-            this.$store.state.users.forEach((event)=>{
-                if(localStorage.this.input.User === event.user){
-                    this.$router.push({ name: "Home" });
-                } else{
-                    return false
-                }
-            })
-
-        }
     },
     props: {
         text:{
